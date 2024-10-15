@@ -31,18 +31,18 @@ function insertCactusButton() {
 }
 
 function addCactusResources() {
-    if (!$('head').find('link[href="https://latest.cactus.chat/style.css"]').length) {
+    if (!$('head').find('link[href="https://gateway.pinata.cloud/ipfs/QmQpbFFnivpkLukkU1x5kPck5CvLtAkLpcZevAWQLoXFUy/v0.12.0/style.css"]').length) {
         let cactusStylesheet = document.createElement('link');
         cactusStylesheet.rel = 'stylesheet';
-        cactusStylesheet.href = 'https://latest.cactus.chat/style.css';
+        cactusStylesheet.href = 'https://gateway.pinata.cloud/ipfs/QmQpbFFnivpkLukkU1x5kPck5CvLtAkLpcZevAWQLoXFUy/v0.12.0/style.css';
         cactusStylesheet.type = 'text/css';
         document.head.appendChild(cactusStylesheet);
     }
 
-    if (!$('head').find('script[src="https://latest.cactus.chat/cactus.js"]').length) {
+    if (!$('head').find('script[src="https://gateway.pinata.cloud/ipfs/QmQpbFFnivpkLukkU1x5kPck5CvLtAkLpcZevAWQLoXFUy/v0.12.0/cactus.js"]').length) {
         let cactusScript = document.createElement('script');
         cactusScript.type = 'text/javascript';
-        cactusScript.src = 'https://latest.cactus.chat/cactus.js';
+        cactusScript.src = 'https://gateway.pinata.cloud/ipfs/QmQpbFFnivpkLukkU1x5kPck5CvLtAkLpcZevAWQLoXFUy/v0.12.0/cactus.js';
         document.head.appendChild(cactusScript);
     }
 }
